@@ -1,1 +1,1 @@
-print("Modified Version 2 Docker App")
+print("Hello from Docker + Github (python)!")
