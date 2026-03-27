@@ -1,4 +1,3 @@
-FROM python:3.13
-WORKDIR /app
-COPY . .
-CMD ["python","app.py"]
+FROM python:3.10
+COPY app.py /app.py
+CMD ["python", "app.py"]
